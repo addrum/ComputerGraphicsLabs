@@ -1,0 +1,24 @@
+﻿Build started 25/01/2013 16:41:10.
+     1>Project "C:\Slabaugh\Teaching\INM376_2013\Labs\Lab1\demo\OpenGLTemplate\OpenGLTemplate\OpenGLTemplate.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenGLTemplate.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include\freetype\freetype2\freetype /I.\include\freetype /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameWindow.cpp
+         GameWindow.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Slabaugh\Teaching\INM376_2013\Labs\Lab1\demo\OpenGLTemplate\Debug\OpenGLTemplate.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:./lib glew32.lib glu32.lib opengl32.Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenGLTemplate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Slabaugh\Teaching\INM376_2013\Labs\Lab1\demo\OpenGLTemplate\Debug\OpenGLTemplate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Slabaugh\Teaching\INM376_2013\Labs\Lab1\demo\OpenGLTemplate\Debug\OpenGLTemplate.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\GameWindow.obj
+         Debug\Main.obj
+         Debug\MatrixStack.obj
+         Debug\Shaders.obj
+         OpenGLTemplate.vcxproj -> C:\Slabaugh\Teaching\INM376_2013\Labs\Lab1\demo\OpenGLTemplate\Debug\OpenGLTemplate.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Slabaugh\Teaching\INM376_2013\Labs\Lab1\demo\OpenGLTemplate\Debug\OpenGLTemplate.exe;#1" /manifest Debug\OpenGLTemplate.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenGLTemplate.unsuccessfulbuild".
+         Touching "Debug\OpenGLTemplate.lastbuildstate".
+     1>Done Building Project "C:\Slabaugh\Teaching\INM376_2013\Labs\Lab1\demo\OpenGLTemplate\OpenGLTemplate\OpenGLTemplate.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23
